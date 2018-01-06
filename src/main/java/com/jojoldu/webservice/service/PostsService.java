@@ -1,8 +1,8 @@
-package com.jojoldu.webservice.service;
+package com.rickkim90.webservice.service;
 
-import com.jojoldu.webservice.domain.posts.PostsRepository;
-import com.jojoldu.webservice.dto.posts.PostsMainResponseDto;
-import com.jojoldu.webservice.dto.posts.PostsSaveRequestDto;
+import com.rickkim90.webservice.domain.posts.PostsRepository;
+import com.rickkim90.webservice.dto.posts.PostsMainResponseDto;
+import com.rickkim90.webservice.dto.posts.PostsSaveRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 27.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 27.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @AllArgsConstructor

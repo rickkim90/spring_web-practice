@@ -1,7 +1,7 @@
 /**
- * Created by jojoldu@gmail.com on 2018. 1. 3.
- * Blog : http://jojoldu.tistory.com
- * Github : http://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2018. 1. 3.
+ * Blog : http://rickkim90.tistory.com
+ * Github : http://github.com/rickkim90
  */
 
 

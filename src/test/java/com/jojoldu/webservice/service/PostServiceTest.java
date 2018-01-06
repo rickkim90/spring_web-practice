@@ -1,8 +1,8 @@
-package com.jojoldu.webservice.service;
+package com.rickkim90.webservice.service;
 
-import com.jojoldu.webservice.domain.posts.Posts;
-import com.jojoldu.webservice.domain.posts.PostsRepository;
-import com.jojoldu.webservice.dto.posts.PostsSaveRequestDto;
+import com.rickkim90.webservice.domain.posts.Posts;
+import com.rickkim90.webservice.domain.posts.PostsRepository;
+import com.rickkim90.webservice.dto.posts.PostsSaveRequestDto;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,9 +14,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 /**
- * Created by jojoldu@gmail.com on 2018. 1. 1.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2018. 1. 1.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @RunWith(SpringRunner.class)
@@ -38,7 +38,7 @@ public class PostServiceTest {
     public void Dto데이터가_posts테이블에_저장된다 () {
         //given
         PostsSaveRequestDto dto = PostsSaveRequestDto.builder()
-                .author("jojoldu@gmail.com")
+                .author("rickkim90@gmail.com")
                 .content("테스트")
                 .title("테스트 타이틀")
                 .build();

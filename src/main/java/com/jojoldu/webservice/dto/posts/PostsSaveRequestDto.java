@@ -1,15 +1,15 @@
-package com.jojoldu.webservice.dto.posts;
+package com.rickkim90.webservice.dto.posts;
 
-import com.jojoldu.webservice.domain.posts.Posts;
+import com.rickkim90.webservice.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 27.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 27.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @Getter

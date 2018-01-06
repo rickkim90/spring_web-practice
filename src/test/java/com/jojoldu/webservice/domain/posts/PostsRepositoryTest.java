@@ -1,4 +1,4 @@
-package com.jojoldu.webservice.domain.posts;
+package com.rickkim90.webservice.domain.posts;
 
 import org.junit.After;
 import org.junit.Test;
@@ -16,9 +16,9 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 23.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 23.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @RunWith(SpringRunner.class)
@@ -39,7 +39,7 @@ public class PostsRepositoryTest {
         postsRepository.save(Posts.builder()
                 .title("테스트 게시글")
                 .content("테스트 본문")
-                .author("jojoldu@gmail.com")
+                .author("rickkim90@gmail.com")
                 .build());
 
         //when
@@ -58,7 +58,7 @@ public class PostsRepositoryTest {
         postsRepository.save(Posts.builder()
                 .title("테스트 게시글")
                 .content("테스트 본문")
-                .author("jojoldu@gmail.com")
+                .author("rickkim90@gmail.com")
                 .build());
         //when
         List<Posts> postsList = postsRepository.findAll();

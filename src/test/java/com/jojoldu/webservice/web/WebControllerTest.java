@@ -1,4 +1,4 @@
-package com.jojoldu.webservice.web;
+package com.rickkim90.webservice.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,9 +11,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 31.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 31.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @RunWith(SpringRunner.class)

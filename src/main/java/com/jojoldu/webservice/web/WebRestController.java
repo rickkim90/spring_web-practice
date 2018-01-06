@@ -1,7 +1,7 @@
-package com.jojoldu.webservice.web;
+package com.rickkim90.webservice.web;
 
-import com.jojoldu.webservice.dto.posts.PostsSaveRequestDto;
-import com.jojoldu.webservice.service.PostsService;
+import com.rickkim90.webservice.dto.posts.PostsSaveRequestDto;
+import com.rickkim90.webservice.service.PostsService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 24.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 24.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @RestController

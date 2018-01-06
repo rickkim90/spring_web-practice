@@ -1,6 +1,6 @@
-package com.jojoldu.webservice.dto.posts;
+package com.rickkim90.webservice.dto.posts;
 
-import com.jojoldu.webservice.domain.posts.Posts;
+import com.rickkim90.webservice.domain.posts.Posts;
 import lombok.Getter;
 
 import java.time.LocalDateTime;
@@ -8,9 +8,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.Optional;
 
 /**
- * Created by jojoldu@gmail.com on 2018. 1. 4.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2018. 1. 4.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @Getter

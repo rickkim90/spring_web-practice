@@ -1,6 +1,6 @@
-package com.jojoldu.webservice.domain.posts;
+package com.rickkim90.webservice.domain.posts;
 
-import com.jojoldu.webservice.domain.BaseTimeEntity;
+import com.rickkim90.webservice.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -12,9 +12,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 23.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 23.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @NoArgsConstructor(access = AccessLevel.PROTECTED)

@@ -1,4 +1,4 @@
-package com.jojoldu.webservice.domain;
+package com.rickkim90.webservice.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -11,9 +11,9 @@ import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
 /**
- * Created by jojoldu@gmail.com on 2017. 12. 15.
- * Blog : http://jojoldu.tistory.com
- * Github : https://github.com/jojoldu
+ * Created by rickkim90@gmail.com on 2017. 12. 15.
+ * Blog : http://rickkim90.tistory.com
+ * Github : https://github.com/rickkim90
  */
 
 @Getter
